@@ -10,7 +10,7 @@ const PosterList = () => {
   const [customers, setCustomers] = useState([]);
   const categories = ['Offers', 'Events', 'Festivals'];
 
-  const baseUrl = 'http://localhost:5000/';
+  const baseUrl = 'https://poster-generetor-server-hwkp.vercel.app/';
 
   useEffect(() => {
     const fetchCustomers = async () => {
